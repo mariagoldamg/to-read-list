@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to right,#7895B2, #25316D);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.inputField {
+    border: none;
+    padding: 20px;
+    width: 40%;
+}
+
+.btn {
+    border: none;
+    padding: 20px;
+    color: black;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #FFD1D1;
+}
+.toReadAdded {
+    background-color: #7895B2;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    list-style-type: none;
+    color: #Fff;
+    font-size: large;
+    margin-bottom: 1px;
+    
+}
+.toRead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.finished {
+    background-color: #B7C4CF ;
+    text-decoration: line-through;
+    color: black;
+    transition: all 2s ease ;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
